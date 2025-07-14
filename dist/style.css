@@ -1,0 +1,84 @@
+body,*{
+    font-family:"Source Sans Pro";
+    margin: 0;
+}
+.banner{
+    height: 80px;
+    width: 100%;
+}
+.banner h2{
+    line-height: 80px;
+    color: #515151;
+    font-weight: 600;
+}
+.blue-label{
+    width: 100%;
+    padding: 30px 0 45px;
+    color: white;
+    background-color: #3bbfd3;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+}
+.blue-label .shorten-text{
+    font-size: 22px;
+    font-weight: 300;
+}
+.text-input{
+    height: 36px;
+    width: 60%;
+    padding: 0 16px;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 36px;
+    vertical-align: middle;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    -webkit-transition: background-color .2s cubic-bezier(0.4,0,0.2,1),color .2s cubic-bezier(0.4,0,0.2,1);
+    transition: background-color .2s cubic-bezier(0.4,0,0.2,1),color .2s cubic-bezier(0.4,0,0.2,1);
+}
+.form{
+    margin: 10px 0 5px 0;
+}
+.submit-button{
+    margin-left: 8px; 
+    color: #3bbfd3;
+    background: white;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+    border: none;
+    border-radius: 2px;
+    height: 36px;
+    padding: 0 16px;
+    font-weight: 600;
+}
+.container{
+    width: 60%;
+    margin: 0 auto !important;
+}
+.seperator{
+    height: 80px;
+    width: 100%;
+    background: none;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    background: #ededed;
+    height: 60px;
+    width: 100%;
+}
+.footer .container a{
+    line-height: 60px;
+    text-decoration: none;
+    color: #3b30de
+}
+@media only screen and (max-width: 500px) {
+    .container{
+        width: 90%;
+    }
+    .text-input{
+        width: 100%;
+    }
+    .submit-button{
+        margin: 8px 0 0 0;
+    }
+}

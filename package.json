@@ -1,0 +1,27 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "a simple url shortner using json files",
+  "main": "index.js",
+  "author": "Mrinal Raj <github.com/mystiquemilo>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/checkJSONfile.js && node server.js"
+  },
+  "keywords": [
+    "node",
+    "url",
+    "shortner",
+    "tinyurl",
+    "goo.gl"
+  ],
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "fs": "^0.0.1-security",
+    "json": "^9.0.6",
+    "jsonfile": "^3.0.1",
+    "path": "^0.12.7"
+  }
+}
