@@ -10,4 +10,4 @@ clone this repository
 
 `npm start`
 
-now direct your browser to `http://localhost:5000`
+now direct your browser to `http://localhost:3000`
