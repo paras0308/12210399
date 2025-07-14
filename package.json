@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "a simple url shortner using json files",
   "main": "index.js",
-  "author": "Mrinal Raj <github.com/mystiquemilo>",
+  "author": "Paras Dhiman <github.com/paras0308/12210399>",
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
